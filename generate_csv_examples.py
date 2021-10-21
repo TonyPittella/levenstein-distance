@@ -1,8 +1,8 @@
 import csv
 import string
 from copy import copy
-from Levenshtein import easy_leven
-#from Levenshtein import *
+#from levenstein import easy_leven
+from edit_distance import easy_leven
 
 def clean_text(wd):
     wd = wd.strip().lower()

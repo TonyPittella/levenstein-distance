@@ -28,3 +28,5 @@ def test_examples():
         examples = csv.reader(csvfile)
         for row in examples:
             assert easy_leven(row[0], row[1]) == int(row[2])
+
+
